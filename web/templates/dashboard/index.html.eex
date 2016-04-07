@@ -1,2 +1,3 @@
-<h1>Dash and board!</h1>
-<%= link "Launch", to: "rocket/launch" %>
+<div class="dashboard">
+  <%= link "Launch", to: "rocket/launch", class: "btn btn-danger btn-lg btn-lng" %>
+</div>

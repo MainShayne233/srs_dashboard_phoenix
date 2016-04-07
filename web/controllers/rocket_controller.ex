@@ -2,6 +2,6 @@ defmodule SrsDashboard.RocketController do
   use SrsDashboard.Web, :controller
 
   def launch(conn, _param) do
-    render conn, 'dashboard/index.html'
+    redirect conn, to: "/"
   end
 end
